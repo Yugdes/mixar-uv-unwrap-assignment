@@ -13,14 +13,17 @@
  * See reference/algorithms.md for detailed description
  */
 
+#define _USE_MATH_DEFINES
+#include <cmath>     // now M_PI is available
+
 #include "unwrap.h"
 #include "math_utils.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 #include <vector>
 #include <set>
 #include <queue>
+
 
 /**
  * @brief Compute angular defect at a vertex
